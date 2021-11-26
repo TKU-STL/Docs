@@ -16,7 +16,7 @@ The mechanism to document this resource is based on operation principle of GitHu
 
 ## Contents
 The contents of the documentation are listed below
-- [BIXS - V1.5](#BIXS-V1.5)
-- [PCB Design](#PCB-Design)
-- [Programming Guide](#Programming-Guide)
-- [Raspberry Pi](#Raspberry-Pi)
+- [BIXS - V1.5](/BIXS-V1.5)
+- [PCB Design](/PCB-Design)
+- [Programming Guide](/Programming-Guide)
+- [Raspberry Pi](/Raspberry-Pi)
