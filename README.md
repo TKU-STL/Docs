@@ -22,4 +22,4 @@ The contents of the documentation are listed below
 - [Raspberry Pi](/Raspberry-Pi)
 
 ## Document Tracker
-The maintenance and operation of the documentation is done by GitHub Project. GitHub project is a powerful Kanban board which is used to track the progress of the project. If there is an idea to be added to the documents, feel free to create a to-do at the project page. Then, the repository administator [Mark Chen](@MarkCodering) will be responsible for the maintenance of the documentation to ensure te maximum accuracy and readability of the documentation.
+The maintenance and operation of the documentation is done by GitHub Project. GitHub project is a powerful Kanban board which is used to track the progress of the project. If there is an idea to be added to the documents, feel free to create a to-do at the project page. Then, the repository administator [Mark Chen](https://github.com/MarkCodering) will be responsible for the maintenance of the documentation to ensure te maximum accuracy and readability of the documentation.
