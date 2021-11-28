@@ -7,6 +7,8 @@ This documentation site aims to provide a comprehensive and up-to-date technical
 ## Documentation Mechanism
 The mechanism to document this resource is based on operation principle of GitHub. Once you have wrote a new document, you need to create a branch so that we can check the content and update the documentation. Once the pull request is accepted, the document will be updated to the main branch which will be official release of the document.
 
+## Contribution Guidelines
+
 ## Directory Structure
 - README.md
 - BIXS - V1.5
@@ -16,7 +18,7 @@ The mechanism to document this resource is based on operation principle of GitHu
 
 ## Contents
 The contents of the documentation are listed below
-- [Development Environment](/Development-Environment.md)
+- [Development Environment](#Development-Environment.md)
 - [BIXS - V1.5](/BIXS-V1.5)
 - [PCB Design](/PCB-Design)
 - [Programming Guide](/Programming-Guide)
