@@ -18,7 +18,7 @@ The mechanism to document this resource is based on operation principle of GitHu
 
 ## Contents
 The contents of the documentation are listed below
-- [Development Environment](/Development-Environment.md)
+- [Development Environment](#Development-Environment.md)
 - [BIXS - V1.5](/BIXS-V1.5)
 - [PCB Design](/PCB-Design)
 - [Programming Guide](/Programming-Guide)
