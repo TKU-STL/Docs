@@ -2,8 +2,7 @@
 The software ran on the BIXS-V1.5 avionics systems was developed by the avionics team at Space Technology Laboratory. The system was designed to meet a specific mission profile which means that this is not a general purposed flight computer of all scenarios of applications. 
 
 ## Software Design Principles
-The software design principles of the 
-
+The software design principles of the BIXS computer are based on the following,
 
 ## Software Architecture
 
