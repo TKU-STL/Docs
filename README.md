@@ -23,7 +23,7 @@ If you have any questions about the documentation or any systems we developed, f
 ## Contents
 The contents of the documentation are listed below
 - [Development Environment](/Development-Environment.md)
-- [BIXS - V1.5](https://github.com/TKU-STL/Docs/blob/main/BIXS-V1.5/README.md)
+- [BIXS - V1.5](./BIXS-V1.5/README.md)
 - [PCB Design](https://github.com/TKU-STL/Docs/tree/main/PCB-Design/README.md)
 - [Programming Guide](https://github.com/TKU-STL/Docs/tree/main/Programming-Guide/README.md)
 - [Raspberry Pi](https://github.com/TKU-STL/Docs/tree/main/Raspberry-Pi/README.md)
