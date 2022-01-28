@@ -16,6 +16,7 @@ If you have any questions about the documentation or any systems we developed, f
 - PCB Design
 - Programming Guide
 - Raspberry Pi
+- Zephyr RTOS
 
 ## Contents
 The contents of the documentation are listed below
