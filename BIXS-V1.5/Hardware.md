@@ -1,2 +1,2 @@
 # Introduction to BIXS-V1.5: Hardware
-![image](BIXS-V1.5/BIXS.jpeg)
+![image](https://github.com/TKU-STL/Docs/blob/main/BIXS-V1.5/BIXS.jpeg)
