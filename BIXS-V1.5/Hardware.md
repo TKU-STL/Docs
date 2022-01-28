@@ -1,2 +1,2 @@
 # Introduction to BIXS-V1.5: Hardware
-![image](
+![image](BIXS-V1.5/BIXS.jpeg)
