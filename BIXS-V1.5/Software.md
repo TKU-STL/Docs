@@ -7,14 +7,19 @@ The official source code repsentation of the software is available at the follow
 
 ## Software Design Principles
 The software design principles of the BIXS computer are based on the following,
+- Modular
+- Reusable
+- Configurable
 
 ## Software Architecture
-
-### Setup and Initalization
+#### Setup and Initalization
 - System Initialization
 - Sensors Initialization
     - IMU
     - Altimeter
+#### Loop function
+- Main Loop
+    - Update Sensors
 
 ### Loop and Update
 - Alt_Update()
@@ -48,41 +53,96 @@ The API documentation enables engineers and manager to better understand the sou
     - Properties
     - Parameters
 - Concepts
+- API
 - Sample Code
+--------------------------
 ### Serial Commmunication and System Functions
-##### System Communication Initialization
+#### System Communication Initialization
+- Name: System Communication Initialization
+- Scope: Initalization Function
+- Properties: None
+- Parameters: Baud Rate
+- Concept: The function invoke the Arduino board to begin serial communication. The parameter is the baudrate of the serial communication which is set to 9600 by default and define by the following manner.
+##### API
 ```C
 SysCom_Init(BAUDRATE);
 ```
+#### Sample Code
+```C
+#include <Arduino>
 
-The function invoke the Arduino board to begin serial communication. The parameter is the baudrate of the serial communication which is set to 9600 by default and define by the following manner.
-```C
 #define BAUDRATE 9600
+
+void setup()
+{
+    Serial.begin(BAUDRATE);
+}
 ```
-### Sensors
-#### Sensor Initialization
-This function is used to initialize the sensors. The function is invoked by the set-up function. 
+--------------------------------
+## Sensors
+### Sensor Initialization 
+Name: Sensor Initialization
+Scope: Initalization Function
+Properties: None
+Parameters: None
+Concept: The function is used to initialize the sensors. The function is invoked by the set-up function.
+
+##### API
 ```C
-Alt_Init();
+Alt_Init(); //Altimeter initialization
 ```
 ```C
-IMU_Init();
+IMU_Init(); //IMU initialization
 ```
-#### IMU
-This function is used to read the IMU data. The function is invoked by the loop function.
+----------
+### IMU
+Name: IMU
+Scope: Loop function
+Properties: None
+Parameters: None
+Concept: The function is used to update the IMU data. The function is invoked by the loop function.
+#### API
 ```C
 IMU_Update();
 ```
-
-#### Altitude Meter 
+#### Sample Code
+```C
+void loop(){
+    IMU_Update();
+}
+```
+----------
+### Altitude Meter 
+Name: Altitude Meter
+Scope: Loop function
+Properties: None
+Parameters: None
+Concept: The function is used to update the altitude data. The function is invoked by the loop function.
+#### API
 ```C
 Alt_Update();
 ```
-The function is used to read the altitude data from the BMP180 sensor. The function is invoked by the loop function.
-
+#### Sample Code
+```C
+void loop(){
+    Alt_Update();
+}
+```
+----------------
 ### System Utilities
-##### System Clock
+#### System Clock
+Name: System Clock
+Scope: Loop function
+Properties: None
+Parameters: None
+Concept: The function is used to read the system clock data from the microprocessor. The function is invoked by the loop function.
+#### API
 ```C
 System_Clock();
 ```
-The function is used to get the system clock. The function is invoked by the main function. The system clock is vital to understand the time sequence of the performance.
+#### Sample Code
+```C
+void loop(){
+    System_Clock();
+}
+```

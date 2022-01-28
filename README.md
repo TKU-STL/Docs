@@ -1,5 +1,5 @@
 # STL Avionics Docs
-The official documentation site of Space Technology Lab, Tamkang University
+The official documentation site of the avionics team at Space Technology Lab, Tamkang University
 
 ![Cover](/Cover.png)
 
@@ -14,6 +14,7 @@ If you have any questions about the documentation or any systems we developed, f
 
 ## Directory Structure
 - README.md
+- Development-Environment.md
 - BIXS - V1.5
 - PCB Design
 - Programming Guide
