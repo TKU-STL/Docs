@@ -16,10 +16,32 @@
     * RX腳位接Arduino TX腳位
     * TX腳位接Arduibo RX腳位
     * VCC接5V
-    * GND接地
+    * GND接GND
+## SparkFun LSM9DS1 (九軸IMU)
+* 可測量數據
+    * 3軸加速度 (刻度可設置為±2,4,8,16 g)
+    * Roll, Pitch, Yaw (支援±245,500,2000°/ s)
+    * 3軸磁力 (標度範圍±4,8,12,16高斯)
+* 腳位連接
+    * SCL接Arduino SCL腳位
+    * SDA接Arduino SDA腳位
+    * VCC接3.3v
+    * GND接GND
+* 注意事項
+    * 儀器上有標示x/y/z軸方向
 ## BMP180
 * 高度計
-* 
+* 腳位連接
+    * SDA接A4
+    * SCL接A5
+    * VIN接3.3v
+    * GND接GND
+* 注意事項
+    * 根據經驗此儀器壞掉機率較高，焊接時加熱時間盡量減短
+    * 此儀器為氣壓型高度計，需測量到外界氣壓才會是準確的高度
+
+
+
 
 ## 分電盤
 
