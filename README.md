@@ -23,11 +23,11 @@ If you have any questions about the documentation or any systems we developed, f
 ## Contents
 The contents of the documentation are listed below
 - [Development Environment](/Development-Environment.md)
-- [BIXS - V1.5](/BIXS-V1.5)
-- [PCB Design](/PCB-Design)
-- [Programming Guide](/Programming-Guide)
-- [Raspberry Pi](/Raspberry-Pi)
-- [Zephyr RTOS](/Zephyr-RTOS)
+- [BIXS - V1.5](https://github.com/TKU-STL/Docs/tree/main/BIXS-V1.5)
+- [PCB Design](https://github.com/TKU-STL/Docs/tree/main/PCB-Design)
+- [Programming Guide](https://github.com/TKU-STL/Docs/tree/main/Programming-Guide)
+- [Raspberry Pi](https://github.com/TKU-STL/Docs/tree/main/Raspberry-Pi)
+- [Zephyr RTOS](https://github.com/TKU-STL/Docs/tree/main/Zephyr-RTOS)
 
 ## Contribution Guidelines and Document Tracker
 The maintenance and operation of the documentation is done by GitHub Project. GitHub project is a powerful Kanban board which is used to track the progress of the project. If there is an idea to be added to the documents, feel free to create a to-do at the project page. Then, the repository administator [Mark Chen](https://github.com/MarkCodering) will be responsible for the maintenance of the documentation to ensure te maximum accuracy and readability of the documentation.
