@@ -1,6 +1,8 @@
 # STL Avionics Docs
 The official documentation site of Space Technology Lab, Tamkang University
 
+![Cover](/Cover.png)
+
 ## Mission Statement
 This documentation site aims to provide a comprehensive and up-to-date technical documentation for the works at Space Technology Lab, Tamkang University. Therefore, it is vital to check the latest updates and additions to the documentation before implementing any software and hardware changes.
 
