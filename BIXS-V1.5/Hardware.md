@@ -1,5 +1,15 @@
 # Introduction to BIXS-V1.5: Hardware
 ![image](https://github.com/TKU-STL/Docs/blob/main/BIXS-V1.5/Picture/BIXS.jpeg)
+## Arduino UNO
+* 系統機載電腦
+* 供電
+    * 可透過USB連接埠、電源輸入插座、Vin腳位提供電源
+    * 供應的電壓限制為6V至20V (建議輸入7V-12V)
+* 本次任務用到的腳位有SDA, SCL, A4, A5, Vin, GND, RX0, TX0
+* RESET
+    * 當程式執行有問題時，可按reset鈕重新執行燒錄程式
+* 注意事項
+    * 進行燒錄時記得先將RX, TX腳位斷開以防燒錄失敗
 ## XBEE Pro 3
 * 主要傳輸模組
 * XCTU為其使用介面
@@ -35,6 +45,7 @@
     * GND接GND
 * 注意事項
     * 儀器上有標示x/y/z軸方向
+    * 盡量與航電艙保持水平
 * 相關網址
     - [購買](https://www.taiwaniot.com.tw/product/9dof-imu-breakout-lsm9ds1-sparkfun/)
     - [Library](https://github.com/sparkfun/SparkFun_LSM9DS1_Arduino_Library)
