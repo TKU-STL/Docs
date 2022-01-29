@@ -17,7 +17,7 @@
     * TX腳位接Arduibo RX腳位
     * VCC接5V
     * GND接GND
-## SparkFun LSM9DS1 (九軸IMU)
+## 九軸IMU (SparkFun LSM9DS1)
 * 可測量數據
     * 3軸加速度 (刻度可設置為±2,4,8,16 g)
     * Roll, Pitch, Yaw (支援±245,500,2000°/ s)
@@ -29,6 +29,15 @@
     * GND接GND
 * 注意事項
     * 儀器上有標示x/y/z軸方向
+## MicroSD 記錄模組 (GY-Openlog Cleanflight naze32 F3 blackbox)
+* 腳位連接
+    * RXI接Arduino TXI腳位
+    * vcc接5v
+    * GND接GND
+* 儲存容量可到32G
+* 注意事項
+    * 第一次插入記憶卡上電後，內存卡上將生產config.txt文件
+    * 發射前記得將前面測試的資料刪除
 ## BMP180
 * 高度計
 * 腳位連接
