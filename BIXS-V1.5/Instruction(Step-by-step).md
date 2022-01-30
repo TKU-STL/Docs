@@ -1,5 +1,5 @@
 # BIXS-V1.5 安裝流程
-## Step1: 將 Arduino UNO 與電腦連線
+### Step1: 將 Arduino UNO 與電腦連線
 
 ## Step2: 打開 VScode 點選功能列中的Terminal
 
