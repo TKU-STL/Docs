@@ -19,9 +19,11 @@
     * 接上轉接板時須注意方向問題
 - [購買網址](https://www.ruten.com.tw/item/show?21312138233975)
 ### XBEE設定
-<div align=center><img src="https://github.com/TKU-STL/Docs/blob/main/BIXS-V1.5/Picture/messageImage_1643524873609.jpg" alt="Cover" width="80%"/></div>
+<div align=center>
+    <img src="https://github.com/TKU-STL/Docs/blob/main/BIXS-V1.5/Picture/messageImage_1643524873609.jpg" alt="Cover" width="80%"/>
+</div>
 
-* 發送端(ROUTER或END_DEVICE)
+##### 發送端(ROUTER或END_DEVICE)
    * ID:數字隨意但需跟接收端一樣
    * JV:Enabled[1]
    * CE:不動(Join Network[0])
@@ -29,7 +31,7 @@
    * DL:0
    * NI:自取(英文)
    * SP:1F4 ->定義睡眠花費時間(可以不設定此項)
-* 接收端(COORDINATOR)
+##### 接收端(COORDINATOR)
    * ID:數字隨意但需跟發送端一樣
    * JV:不動
    * CE: Enabled[1](Form Network[1]) ->將此XBEE設為coordinator
