@@ -18,7 +18,7 @@
     * 容易脫離轉接板導致使用異常，發射時可用膠帶捆住
     * 接上轉接板時須注意方向問題
 - [購買網址](https://www.ruten.com.tw/item/show?21312138233975)
-###設定
+### 設定
 <img src="https://github.com/TKU-STL/Docs/blob/main/BIXS-V1.5/Picture/messageImage_1643524873609.jpg" alt="Cover" width="80%"/>
 * 發送端(ROUTER或END_DEVICE)
    * ID:數字隨意但需跟接收端一樣
