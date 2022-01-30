@@ -4,6 +4,7 @@ The avionics system used in the 2021 rocket mission at [Space Technology Laborat
 ## References
 - [Hardware Documentation](./Hardware.md)
 - [Software Documentation](./Software.md)
+- [Software Docymentation - Chinese](./Software_Ch.md)
 
 ## System Architecture Structure
 The main processor unit on board is Arduino Uno board. Also, we do have IMU and pressure sensor (Altitude meter) to understand the behavior of the sounding rocket. The system architecture is shown below. 
