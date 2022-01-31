@@ -15,7 +15,7 @@
 
 #### Step8: 在 Command Palette 輸入 "PlatformIO: Upalod" 將程式燒入 Arduino UNO(成功會顯示Success)
 
-#### Step9: 先在麵包板進行接線測試零件是否正常運作，詳細圖片參照一下附圖
+#### Step9: 先在麵包板進行接線測試零件是否正常運作，詳細圖片參照以下附圖
 ![image](https://github.com/TKU-STL/Docs/blob/main/BIXS-V1.5/Picture/BIXS.jpeg)
 
 #### Step10: 將SD卡中除了config.txt之外的檔案刪除後插入記憶模組
