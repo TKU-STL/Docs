@@ -22,16 +22,41 @@
 ## Environment Setup
 #### Preliminary Check:
 1. Open the command prompt in Windows or terminal in Linux and Mac OS
+2. Check if the version information is identical with the information below
+##### Version Check:
+###### GCC
 ```
 gcc --version
 ```
+###### Corrected Version Information: GCC
+```
+gcc (GCC) 11.2.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
+
+###### Git
 ```
 git --version
 ```
+###### Corrected Version Information: Git
+```
+git version 2.34.1
+```
+
+###### Open OCD
 ```
 openocd --version
 ```
-The you can have a clear version information by typing the commands above. Your environment set-up should be compatible with our development setting.
+###### Corrected Version Information: OpenOCD
+```
+xPack OpenOCD x86_64 Open On-Chip Debugger 0.11.0+dev (2021-12-07-17:33)
+Licensed under GNU GPL v2
+For bug reports, read
+        http://openocd.org/doc/doxygen/bugs.html
+```
+The you can have a clear and correct version information by typing the commands above. Your environment set-up should be compatible with our development setting.
 
 ### IDE Installation and Configuration
 #### Visual Studio Code
@@ -40,8 +65,8 @@ Visual Studio Code is a powerful IDE which is used to develop software. It is a 
 #### Arduino IDE Installation
 Please use the link above to download and install the latest version of the Arduino IDE which will be the foundation of our software development process. 
 
-#### STMCude
+#### STM32CubeIDE
+The main purpose of installing STM32CubeIDE is to include the ST Link driver which is essential to the development process with ARM Cortex development board.
 
 ### Fusion 360 Installation
 Please use the link above to download and install the latest version of the Fusion 360 which will be the foundation of our software development process. Also, you will be required to login into the Fusion 360 with the Autodesk account you have created.
-
