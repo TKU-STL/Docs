@@ -81,11 +81,11 @@ void setup()
 --------------------------------
 ## Sensors
 ### Sensor Initialization 
-Name: Sensor Initialization
-Scope: Initalization Function
-Properties: None
-Parameters: None
-Concept: The function is used to initialize the sensors. The function is invoked by the set-up function.
+- Name: Sensor Initialization
+- Scope: Initalization Function
+- Properties: None
+- Parameters: None
+- Concept: The function is used to initialize the sensors. The function is invoked by the set-up function.
 
 ##### API
 ```C
@@ -96,11 +96,11 @@ void IMU_Init(); //IMU initialization
 ```
 ----------
 ### IMU
-Name: IMU
-Scope: Loop function
-Properties: None
-Parameters: None
-Concept: The function is used to update the IMU data. The function is invoked by the loop function.
+- Name: IMU
+- Scope: Loop function
+- Properties: None
+- Parameters: None
+- Concept: The function is used to update the IMU data. The function is invoked by the loop function.
 #### API
 ```C
 void IMU_Update();
@@ -113,11 +113,11 @@ void loop(){
 ```
 ----------
 ### Altitude Meter 
-Name: Altitude Meter
-Scope: Loop function
-Properties: None
-Parameters: None
-Concept: The function is used to update the altitude data. The function is invoked by the loop function.
+- Name: Altitude Meter
+- Scope: Loop function
+- Properties: None
+- Parameters: None
+- Concept: The function is used to update the altitude data. The function is invoked by the loop function.
 #### API
 ```C
 void Alt_Update();
@@ -131,11 +131,11 @@ void loop(){
 ----------------
 ### System Utilities
 #### System Clock
-Name: System Clock
-Scope: Loop function
-Properties: None
-Parameters: None
-Concept: The function is used to read the system clock data from the microprocessor. The function is invoked by the loop function.
+- Name: System Clock
+- Scope: Loop function
+- Properties: None
+- Parameters: None
+- Concept: The function is used to read the system clock data from the microprocessor. The function is invoked by the loop function.
 #### API
 ```C
 void System_Clock();
