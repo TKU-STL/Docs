@@ -4,6 +4,7 @@
 #### Required Tools
 - [gcc](https://gcc.gnu.org/)
 - [Mingw](https://sourceforge.net/projects/mingw-w64/)
+- [Cygwin](https://cygwin.com/install.html)
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
@@ -39,13 +40,8 @@ Visual Studio Code is a powerful IDE which is used to develop software. It is a 
 #### Arduino IDE Installation
 Please use the link above to download and install the latest version of the Arduino IDE which will be the foundation of our software development process. 
 
+#### STMCude
+
 ### Fusion 360 Installation
 Please use the link above to download and install the latest version of the Fusion 360 which will be the foundation of our software development process. Also, you will be required to login into the Fusion 360 with the Autodesk account you have created.
 
-### Connect to A Cloud Virtual Machine (Archieved)
-Please use the remote desktop connection (RDP) to connnect to the cloud virtual machine. The cloud virtual machine is a online test platform for Space Technology Lab, Tamkang University to develop their own avionics software. The cloud virtual machine is hosted by Microsoft Azure in Unitied States. To connect to the cloud VM, please follow the following steps below:
-1. Click the RDP file to initate the connection.
-2. Enter the username and password (Account: STLAVI, Password: @STLavionics2021)
-3. Click the "Connect" button.
-4. Cick the "yes" button to continue.
-5. Access to the cloud VM.
