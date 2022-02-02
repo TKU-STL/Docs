@@ -135,7 +135,7 @@ void loop(){
 - Scope: Loop function
 - Properties: None
 - Parameters: None
-- Concept: The function is used to read the system clock data from the microprocessor. The function is invoked by the loop function.
+- Concept: The function is used to read the system clock data from the microprocessor. The function is invoked by the loop function. The unit of the clock is in ms
 #### API
 ```C
 void System_Clock();
