@@ -65,7 +65,7 @@ The API documentation enables engineers and manager to better understand the sou
 - Concept: The function invoke the Arduino board to begin serial communication. The parameter is the baudrate of the serial communication which is set to 9600 by default and define by the following manner.
 ##### API
 ```C
-SysCom_Init(BAUDRATE);
+void SysCom_Init(BAUDRATE);
 ```
 #### Sample Code
 ```C
