@@ -21,19 +21,19 @@ The software design principles of the BIXS computer are based on the following,
 - Main Loop
     - Update Sensors
 
-### Loop and Update
+#### Loop and Update
 - Alt_Update()
 - IMU_Update()
 
 ## Directory Structure
 - Root
-    - .pio //Kernel and Firmware Build
-    - .vscode //Environment Configuration in JSON format
-    - include // Where you include external header file
-    - lib //Where you include external dependencies
-    - src //Where you put your source code
-    - test //Unit Test
-    - platformio.ini //Initalization File
+    - .pio              //Kernel and Firmware Build
+    - .vscode           //Environment Configuration in JSON format
+    - include           // Where you include external header file
+    - lib               //Where you include external dependencies
+    - src               //Where you put your source code
+    - test              //Unit Test
+    - platformio.ini    //Initalization File
 
 ## Development Environments
 The development of the software was done in the following environments,
@@ -89,10 +89,10 @@ Concept: The function is used to initialize the sensors. The function is invoked
 
 ##### API
 ```C
-Alt_Init(); //Altimeter initialization
+void Alt_Init(); //Altimeter initialization
 ```
 ```C
-IMU_Init(); //IMU initialization
+void IMU_Init(); //IMU initialization
 ```
 ----------
 ### IMU
@@ -103,7 +103,7 @@ Parameters: None
 Concept: The function is used to update the IMU data. The function is invoked by the loop function.
 #### API
 ```C
-IMU_Update();
+void IMU_Update();
 ```
 #### Sample Code
 ```C
@@ -120,7 +120,7 @@ Parameters: None
 Concept: The function is used to update the altitude data. The function is invoked by the loop function.
 #### API
 ```C
-Alt_Update();
+void Alt_Update();
 ```
 #### Sample Code
 ```C
@@ -138,7 +138,7 @@ Parameters: None
 Concept: The function is used to read the system clock data from the microprocessor. The function is invoked by the loop function.
 #### API
 ```C
-System_Clock();
+void System_Clock();
 ```
 #### Sample Code
 ```C
