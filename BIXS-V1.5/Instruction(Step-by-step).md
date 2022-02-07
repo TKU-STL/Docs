@@ -21,11 +21,9 @@ git clone https://github.com/TKU-STL/BIXS-Arduino-V1
 
 #### Step7: 在 Command Palette 輸入 "```PlatformIO: Build```" 確認程式是否Success
 
-<<<<<<< HEAD
 #### Step8: 在 Command Palette 輸入 "```PlatformIO: Upalod```" 將程式燒入 Arduino UNO(成功會顯示Success)
 =======
 #### Step8: 在 Command Palette 輸入 "PlatformIO: Upload" 將程式燒入 Arduino UNO(成功會顯示Success)
->>>>>>> 34d5bb173ad6bb6b04c76af9a098718e62a4e72a
 
 #### Step9: 先在麵包板進行接線測試零件是否正常運作，詳細圖片參照以下附圖
 ![image](https://github.com/TKU-STL/Docs/blob/main/BIXS-V1.5/Picture/BIXS.jpeg)
